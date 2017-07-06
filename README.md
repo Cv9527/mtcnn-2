@@ -1,9 +1,12 @@
 # mtcnn
 基于caffe的mtcnn训练实现，非常容易非常简单，并且有配套的纯c++版本的mtcnn-light<br/>
 <br/>
-caffemodel_2_mtcnnmodel: caffemodel文件转换为mtcnn-light支持的.h头文件类型的模型，可以直接丢进去替换编译就行了<br/>
-mtcnn-light: 改进版本的mtcnn-light，配合训练程序，和转换程序，实现一整套的流程到最后部署<br/>
-train: 训练过程所使用的程序和脚本<br/>
+### caffemodel_2_mtcnnmodel: 
+caffemodel文件转换为mtcnn-light支持的.h头文件类型的模型，可以直接丢进去替换编译就行了<br/>
+### mtcnn-light: 
+改进版本的mtcnn-light，配合训练程序，和转换程序，实现一整套的流程到最后部署<br/>
+### train: 
+训练过程所使用的程序和脚本<br/>
 <br/>
 <br/>
 
