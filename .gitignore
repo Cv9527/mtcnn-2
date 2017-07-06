@@ -1,1 +1,3 @@
 /mtcnn-light/*.suo
+/caffemodel_2_mtcnnmodel/Release
+*.sdf

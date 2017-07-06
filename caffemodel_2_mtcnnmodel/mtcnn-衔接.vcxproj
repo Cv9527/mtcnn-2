@@ -43,13 +43,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\project\3.github\CCDL2\CCDL\caffe-easy\3rd\include\protobuf;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\project\3.github\CCDL2\CCDL\caffe-easy\3rd\staticlib\protobuf\$(Platform);$(LibraryPath)</LibraryPath>
+    <IncludePath>include;$(IncludePath)</IncludePath>
+    <LibraryPath>libs\protobuf\$(Platform);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\project\3.github\CCDL2\CCDL\caffe-easy\3rd\include\protobuf;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\project\3.github\CCDL2\CCDL\caffe-easy\3rd\staticlib\protobuf\$(Platform);$(LibraryPath)</LibraryPath>
+    <IncludePath>include;$(IncludePath)</IncludePath>
+    <LibraryPath>libs\protobuf\$(Platform);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
